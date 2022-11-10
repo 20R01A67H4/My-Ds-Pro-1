@@ -36,3 +36,4 @@ wincertstore==0.2
 zipp==3.10.0
 gunicorn
 arbiter
+bz2file
