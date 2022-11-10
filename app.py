@@ -125,8 +125,80 @@ def predict():
             locality=7
         elif(locality=='8'):
             locality=8
-        else:
+        elif(locality=='9'):
             locality=9
+        elif(locality=='10'):
+            locality=0
+        elif(locality=='11'):
+            locality=1
+        elif(locality=='12'):
+            locality=2
+        elif(locality=='13'):
+            locality=3
+        elif(locality=='14'):
+            locality=4
+        elif(locality=='15'):
+            locality=5
+        elif(locality=='16'):
+            locality=6
+        elif(locality=='17'):
+            locality=7
+        elif(locality=='18'):
+            locality=8
+        elif(locality=='19'):
+            locality=9
+        elif(locality=='20'):
+            locality=0
+        elif(locality=='21'):
+            locality=1
+        elif(locality=='22'):
+            locality=2
+        elif(locality=='23'):
+            locality=3
+        elif(locality=='24'):
+            locality=4
+        elif(locality=='25'):
+            locality=5
+        elif(locality=='26'):
+            locality=6
+        elif(locality=='27'):
+            locality=7
+        elif(locality=='28'):
+            locality=8
+        elif(locality=='29'):
+            locality=9
+        elif(locality=='30'):
+            locality=0
+        elif(locality=='31'):
+            locality=1
+        elif(locality=='32'):
+            locality=2
+        elif(locality=='33'):
+            locality=3
+        elif(locality=='34'):
+            locality=4
+        elif(locality=='35'):
+            locality=5
+        elif(locality=='36'):
+            locality=6
+        elif(locality=='37'):
+            locality=7
+        elif(locality=='38'):
+            locality=8
+        elif(locality=='39'):
+            locality=9
+        elif(locality=='40'):
+            locality=0
+        elif(locality=='41'):
+            locality=1
+        elif(locality=='42'):
+            locality=2
+        elif(locality=='43'):
+            locality=3
+        elif(locality=='44'):
+            locality=4
+        else:
+            locality=8
         
         
         prediction=model.predict([[property_size,bedrooms,bathroom,furnishingDesc,parking,Lift,Security,locality]])
